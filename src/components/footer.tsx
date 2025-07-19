@@ -24,6 +24,9 @@ export function Footer() {
             <Typography color="white" className="mb-12 font-normal">
               The reward for getting on the stage is fame.
             </Typography>
+            <Typography color="white" className="mb-12 font-normal">
+              Images by Freepik
+            </Typography>
             <ul className="flex flex-wrap items-center justify-center md:justify-start">
               {LINKS.map((link, idx) => (
                 <li key={link}>
@@ -41,6 +44,7 @@ export function Footer() {
               ))}
             </ul>
           </div>
+          {/*          
           <div className="mt-8 w-full md:mt-0 md:w-auto">
             <Typography variant="h6" color="white" className="mb-3">
               Get the app
@@ -74,23 +78,22 @@ export function Footer() {
               </Button>
             </div>
           </div>
+          */}
         </div>
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-gray-700 py-7 md:justify-between">
+
           <Typography
             color="white"
             className="text-center font-normal opacity-75"
           >
-            &copy; {CURRENT_YEAR} Made with{" "}
-            <a href="https://www.material-tailwind.com" target="_blank">
-              Material Tailwind
-            </a>{" "}
+            &copy; {CURRENT_YEAR} Made
             by{" "}
-            <a href="https://www.creative-tim.com" target="_blank">
-              Creative Tim
+            <a href="https://www.moresso.com" target="_blank">
+              Moresso
             </a>
             .
           </Typography>
-
+          {/*          
           <div className="flex gap-2">
             <IconButton variant="text" color="white">
               <i className="fa-brands fa-twitter text-2xl not-italic opacity-75"></i>
@@ -108,6 +111,7 @@ export function Footer() {
               <i className="fa-brands fa-dribbble text-2xl not-italic opacity-75"></i>
             </IconButton>
           </div>
+          */}
         </div>
       </div>
     </footer>
